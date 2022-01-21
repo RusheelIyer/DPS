@@ -19,7 +19,7 @@ def server_error(e):
     # Log the error and stacktrace.
     return 'An internal error occurred.', 500
 
-# if __name__ == '__main__':
-#      app.run(host='localhost', debug=False)
+if __name__ == '__main__':
+     app.run(host='localhost', debug=False)
 
 # [END app]
